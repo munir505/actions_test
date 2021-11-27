@@ -4,7 +4,7 @@ resource "google_storage_bucket" "gcs_bucket" {
 }
 
 resource "google_compute_instance" "actions_test" {
-  name                      = "actions-test"
-  machine_type              = "n1-standard-1"
-  zone                      = "europe-west2-c"
+  name         = "actions-test"
+  machine_type = "n1-standard-1"
+  zone         = "europe-west2-c"
 }
