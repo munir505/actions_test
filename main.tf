@@ -29,6 +29,6 @@ resource "google_compute_disk" "actions_test_disk" {
 module "module_test" {
   source = "./modules/instance"
 
-  machineName = "testmodule1"
+  machineName  = "testmodule1"
   bootDiskName = "testModuleDisk"
 }
