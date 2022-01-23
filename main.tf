@@ -30,5 +30,5 @@ module "module_test" {
   source = "./modules/instance"
 
   machineName  = "testmodule1"
-  bootDiskName = "testModuleDisk"
+  bootDiskName = "testmoduledisk"
 }
