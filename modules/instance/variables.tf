@@ -1,0 +1,3 @@
+variable "machineName" {
+  type = string
+}

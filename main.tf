@@ -25,3 +25,9 @@ resource "google_compute_disk" "actions_test_disk" {
   size  = 100
   image = "debian-8-jessie-v20170523"
 }
+
+module "module_test" {
+  source = "./modules/instance"
+
+  machineName = "testmodule1"
+}
